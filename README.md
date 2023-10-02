@@ -36,8 +36,7 @@ struct SetCountIntent: AppIntent {
     
     func perform() async throws -> some IntentResult {
         if let store = UserDefaults(suiteName: "group.dynamic_widget.test") {
-            let count = store.integer(forKey: "count")
-            store.setValue(count, forKey: "count")
+            store.setValue(self.count, forKey: "count")
             return .result()
         }
         return .result()
