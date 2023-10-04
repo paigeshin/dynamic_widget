@@ -1,5 +1,7 @@
 # dynamic_widget
 
+https://www.notion.so/paigedream/App-Intent-Configuration-with-code-61380425c76446419f665a37a4f4fba3
+
 ```swift
 import AppIntents
 import SwiftUI
